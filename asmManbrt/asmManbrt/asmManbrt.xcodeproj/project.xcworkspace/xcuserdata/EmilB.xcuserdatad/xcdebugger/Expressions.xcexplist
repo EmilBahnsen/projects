@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "main:main.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(unsigned char __attribute__((ext_vector_type(16))))Floating Point Registersxmm1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "mandelbrotb:(null)">
+      </ContextState>
+      <ContextState
+         contextName = "calculateAndWriteData:(null)">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

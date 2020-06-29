@@ -1,0 +1,8 @@
+﻿Build started 2015-01-16 11:34:36.
+     1>Project "F:\Projects\MathCAD funcitons\MathCADDrawingFuncions\MathCADDrawingFuncions\MathCADDrawingFuncions.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Done Building Project "F:\Projects\MathCAD funcitons\MathCADDrawingFuncions\MathCADDrawingFuncions\MathCADDrawingFuncions.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68

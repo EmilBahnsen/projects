@@ -1,0 +1,11 @@
+﻿Build started 2014-02-28 20:26:57.
+     1>Project "F:\Misk\MathCADBasesFunction\MathCADStringFunction\MathCADStringFunction.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MATHCADSTRINGFUNCTION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS Source.cpp
+         Source.cpp
+     1>Source.cpp(47): error C2440: '=' : cannot convert from 'const double' to 'char *'
+     1>Done Building Project "F:\Misk\MathCADBasesFunction\MathCADStringFunction\MathCADStringFunction.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.74

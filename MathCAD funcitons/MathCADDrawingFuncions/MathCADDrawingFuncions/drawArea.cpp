@@ -1,0 +1,3 @@
+#include <MCADINCL.H>
+
+LRESULT drawArea(LPCOMPLEXARRAY data);

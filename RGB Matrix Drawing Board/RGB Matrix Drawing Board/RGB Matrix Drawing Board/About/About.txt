@@ -1,0 +1,18 @@
+ 	
+	embedXcode
+	embedXcode+
+	----------------------------------
+	Embedded Computing on Xcode
+	
+	
+	© Rei VILO, 2010-2015
+	All rights reserved	
+	http://embedXcode.weebly.com/
+	
+	
+embedXcode  • Apr 15, 2015 release 280 • Added support for ESP8266
+embedXcode+ • Apr 15, 2015 release 280 • Added support for ESP8266
+embedXcode Tools • Apr 01, 2015 release 274 • Support for updated Spark Core
+
+	
+	

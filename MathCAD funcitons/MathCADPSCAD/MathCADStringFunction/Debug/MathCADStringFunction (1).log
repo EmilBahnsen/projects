@@ -1,0 +1,28 @@
+﻿Build started 2014-07-05 23:15:48.
+     1>Project "F:\Misk\MathCADPSCAD\MathCADStringFunction\MathCADStringFunction.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\microsft\include\MCADINCL.H" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MATHCADSTRINGFUNCTION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PSCAD.cpp
+         PSCAD.cpp
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(279): warning C4244: 'initializing' : conversion from 'double' to 'SI', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(286): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(290): warning C4018: '<=' : signed/unsigned mismatch
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(292): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(302): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(306): warning C4018: '<=' : signed/unsigned mismatch
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(308): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(382): warning C4244: '=' : conversion from 'double' to 'UI', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(383): warning C4244: '=' : conversion from 'double' to 'UI', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(393): warning C4244: '=' : conversion from 'double' to 'UI', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(394): warning C4244: '=' : conversion from 'double' to 'UI', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(402): warning C4244: '=' : conversion from 'double' to 'UI', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(406): warning C4244: 'initializing' : conversion from 'double' to 'UI', possible loss of data
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(408): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\misk\mathcadpscad\mathcadstringfunction\pscad.cpp(453): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\PSCAD.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\microsft\lib\mcaduser.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\PSCAD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\PSCAD.lib" /MACHINE:X86 /DLL Debug\PSCAD.obj
+         MathCADStringFunction.vcxproj -> C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\PSCAD.dll
+     1>Done Building Project "F:\Misk\MathCADPSCAD\MathCADStringFunction\MathCADStringFunction.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.29

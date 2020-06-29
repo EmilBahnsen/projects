@@ -1,0 +1,14 @@
+﻿Build started 2014-10-03 11:08:46.
+     1>Project "F:\Projects\MathCAD funcitons\MathCADCoordinateFunctions\MathCADStringFunction\MathCADStringFunction.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\microsft\include\MCADINCL.H" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MATHCADSTRINGFUNCTION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>f:\projects\mathcad funcitons\mathcadcoordinatefunctions\mathcadstringfunction\source.cpp(29): warning C4715: 'distanceBetweenTwoPoints' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\MathCADCoordinateFunctions.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\microsft\lib\mcaduser.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\MathCADCoordinateFunctions.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\MathCADCoordinateFunctions.lib" /MACHINE:X86 /DLL Debug\Source.obj
+         MathCADStringFunction.vcxproj -> C:\Program Files (x86)\Mathcad\Mathcad 15\userefi\MathCADCoordinateFunctions.dll
+     1>Done Building Project "F:\Projects\MathCAD funcitons\MathCADCoordinateFunctions\MathCADStringFunction\MathCADStringFunction.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.17

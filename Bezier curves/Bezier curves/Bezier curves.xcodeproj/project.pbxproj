@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3010164319713DDC00B65485 /* configSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3010164219713DDC00B65485 /* configSheet.xib */; };
+		30BA6433196F3189006CCE26 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BA6432196F3189006CCE26 /* Cocoa.framework */; };
+		30BA6435196F3189006CCE26 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BA6434196F3189006CCE26 /* ScreenSaver.framework */; };
+		30BA643F196F3189006CCE26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30BA643D196F3189006CCE26 /* InfoPlist.strings */; };
+		30BA6443196F3189006CCE26 /* Bezier_curvesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA6442196F3189006CCE26 /* Bezier_curvesView.m */; };
+		30BA644B196F5D84006CCE26 /* NSBezierPath+quicklines.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BA6449196F5D84006CCE26 /* NSBezierPath+quicklines.h */; };
+		30BA644C196F5D84006CCE26 /* NSBezierPath+quicklines.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA644A196F5D84006CCE26 /* NSBezierPath+quicklines.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3010164219713DDC00B65485 /* configSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = configSheet.xib; sourceTree = "<group>"; };
+		30BA642F196F3189006CCE26 /* Bezier curves.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bezier curves.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BA6432196F3189006CCE26 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		30BA6434196F3189006CCE26 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		30BA6437196F3189006CCE26 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		30BA6438196F3189006CCE26 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		30BA6439196F3189006CCE26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30BA643C196F3189006CCE26 /* Bezier curves-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bezier curves-Info.plist"; sourceTree = "<group>"; };
+		30BA643E196F3189006CCE26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30BA6440196F3189006CCE26 /* Bezier curves-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bezier curves-Prefix.pch"; sourceTree = "<group>"; };
+		30BA6441196F3189006CCE26 /* Bezier_curvesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bezier_curvesView.h; sourceTree = "<group>"; };
+		30BA6442196F3189006CCE26 /* Bezier_curvesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bezier_curvesView.m; sourceTree = "<group>"; };
+		30BA6449196F5D84006CCE26 /* NSBezierPath+quicklines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+quicklines.h"; sourceTree = "<group>"; };
+		30BA644A196F5D84006CCE26 /* NSBezierPath+quicklines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+quicklines.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30BA642A196F3189006CCE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA6435196F3189006CCE26 /* ScreenSaver.framework in Frameworks */,
+				30BA6433196F3189006CCE26 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30BA6424196F3189006CCE26 = {
+			isa = PBXGroup;
+			children = (
+				30BA643A196F3189006CCE26 /* Bezier curves */,
+				30BA6431196F3189006CCE26 /* Frameworks */,
+				30BA6430196F3189006CCE26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30BA6430196F3189006CCE26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30BA642F196F3189006CCE26 /* Bezier curves.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30BA6431196F3189006CCE26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BA6432196F3189006CCE26 /* Cocoa.framework */,
+				30BA6434196F3189006CCE26 /* ScreenSaver.framework */,
+				30BA6436196F3189006CCE26 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30BA6436196F3189006CCE26 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BA6437196F3189006CCE26 /* AppKit.framework */,
+				30BA6438196F3189006CCE26 /* CoreData.framework */,
+				30BA6439196F3189006CCE26 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		30BA643A196F3189006CCE26 /* Bezier curves */ = {
+			isa = PBXGroup;
+			children = (
+				30BA6441196F3189006CCE26 /* Bezier_curvesView.h */,
+				30BA6442196F3189006CCE26 /* Bezier_curvesView.m */,
+				30BA643B196F3189006CCE26 /* Supporting Files */,
+				30BA6449196F5D84006CCE26 /* NSBezierPath+quicklines.h */,
+				30BA644A196F5D84006CCE26 /* NSBezierPath+quicklines.m */,
+			);
+			path = "Bezier curves";
+			sourceTree = "<group>";
+		};
+		30BA643B196F3189006CCE26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3010164219713DDC00B65485 /* configSheet.xib */,
+				30BA643C196F3189006CCE26 /* Bezier curves-Info.plist */,
+				30BA643D196F3189006CCE26 /* InfoPlist.strings */,
+				30BA6440196F3189006CCE26 /* Bezier curves-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30BA642B196F3189006CCE26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA644B196F5D84006CCE26 /* NSBezierPath+quicklines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30BA642E196F3189006CCE26 /* Bezier curves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BA6446196F318A006CCE26 /* Build configuration list for PBXNativeTarget "Bezier curves" */;
+			buildPhases = (
+				30BA6429196F3189006CCE26 /* Sources */,
+				30BA642A196F3189006CCE26 /* Frameworks */,
+				30BA642B196F3189006CCE26 /* Headers */,
+				30BA642C196F3189006CCE26 /* Resources */,
+				30BA642D196F3189006CCE26 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bezier curves";
+			productName = "Bezier curves";
+			productReference = 30BA642F196F3189006CCE26 /* Bezier curves.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30BA6425196F3189006CCE26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 30BA6428196F3189006CCE26 /* Build configuration list for PBXProject "Bezier curves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30BA6424196F3189006CCE26;
+			productRefGroup = 30BA6430196F3189006CCE26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30BA642E196F3189006CCE26 /* Bezier curves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30BA642C196F3189006CCE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA643F196F3189006CCE26 /* InfoPlist.strings in Resources */,
+				3010164319713DDC00B65485 /* configSheet.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		30BA642D196F3189006CCE26 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30BA6429196F3189006CCE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA644C196F5D84006CCE26 /* NSBezierPath+quicklines.m in Sources */,
+				30BA6443196F3189006CCE26 /* Bezier_curvesView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30BA643D196F3189006CCE26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BA643E196F3189006CCE26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30BA6444196F3189006CCE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30BA6445196F3189006CCE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30BA6447196F318A006CCE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "~/Library/Screen Savers";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bezier curves/Bezier curves-Prefix.pch";
+				INFOPLIST_FILE = "Bezier curves/Bezier curves-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		30BA6448196F318A006CCE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bezier curves/Bezier curves-Prefix.pch";
+				INFOPLIST_FILE = "Bezier curves/Bezier curves-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30BA6428196F3189006CCE26 /* Build configuration list for PBXProject "Bezier curves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA6444196F3189006CCE26 /* Debug */,
+				30BA6445196F3189006CCE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BA6446196F318A006CCE26 /* Build configuration list for PBXNativeTarget "Bezier curves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA6447196F318A006CCE26 /* Debug */,
+				30BA6448196F318A006CCE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30BA6425196F3189006CCE26 /* Project object */;
+}
