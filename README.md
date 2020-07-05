@@ -7,4 +7,3 @@ Here's some of my personal projects including
 - Whitespace assembler: An assembler for the Whitespace programming language
 - asmManbrt: Code for generating the Mandelbrot set written in NASM assembly
 - randix2radix: C programme for converting numbers between different radix
-- vask-server: Server for montoring washing room statuses
