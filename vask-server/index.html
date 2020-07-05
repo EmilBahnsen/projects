@@ -1,0 +1,109 @@
+<head>
+    <title>Wash Status</title>
+    <meta charset="UTF-8">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            /*border-bottom: 1px solid #ddd;*/
+        }
+        tr:hover {background-color:#f5f5f5;}
+    </style>
+    <script>
+    function loadJSON(path, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+                    if (success)
+                        success(JSON.parse(xhr.responseText));
+                } else {
+                    if (error)
+                        error(xhr);
+                }
+            }
+        };
+        xhr.open("GET", path, true);
+        xhr.send();
+    }
+    var states1, states2;
+    let nDone = 0;
+
+    function populateContent() {
+        if (nDone !== 2) { return; }
+        const body = document.getElementsByTagName('body')[0];
+
+        function addRoom(states) {
+            console.log(states);
+            const tbl = document.createElement('table');
+            // tbl.style.width = '100%';
+            tbl.setAttribute('border', '1');
+            const tbdy = document.createElement('tbody');
+            // Header
+            const tr_header = document.createElement('tr');
+            th_header = document.createElement('th');
+            th_header.colSpan = 3;
+            th_header.textContent = states['Location'];
+            tr_header.appendChild(th_header);
+            tbdy.appendChild(tr_header);
+            // Body of table
+            let nWash = 1, nDry = 1;
+            for (var machine of states) {
+                const tr = document.createElement('tr');
+                const status_icon = document.createElement('td');
+                const symbol = document.createElement('img');
+                const symbol_size = 50;
+                symbol.style = 'width: ' + symbol_size + 'px';
+                status_icon.appendChild(symbol);
+                const name = document.createElement('td');
+                if (machine['GroupNumber'] === 0) {
+                    name.innerHTML = 'Wash ' + nWash;
+                    nWash++;
+                    symbol.src = 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Waschen.svg';
+                } else if (machine['GroupNumber'] === 1) {
+                    name.innerHTML = 'Dry ' + nDry;
+                    nDry++;
+                    symbol.src = 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Trommeltrocknen.svg';
+                }
+                const state = document.createElement('td');
+                state.innerHTML = machine['Text1'];
+                if (machine['Text1'] === 'Idle') {
+                    symbol.style = 'width: ' + symbol_size + 'px; background-color: green;'
+                } else {
+                    symbol.style = 'width: ' + symbol_size + 'px; background-color: red;'
+                }
+                tr.appendChild(status_icon);
+                tr.appendChild(name);
+                tr.appendChild(state);
+                tbdy.appendChild(tr);
+            }
+            tbl.appendChild(tbdy);
+            body.append(tbl)
+        }
+        body.innerHTML = '';
+        addRoom(states2);
+        body.append(document.createElement('br'));
+        addRoom(states1);
+    }
+
+    loadJSON('status1.json', (data) => {states1 = data['MachineStates']; states1['Location'] = 'Finlandsgade 18'; nDone++; populateContent()}, (xhr) => console.log(xhr));
+    loadJSON('status2.json', (data) => {states2 = data['MachineStates']; states2['Location'] = 'Helsingforsgade 11'; nDone++; populateContent()}, (xhr) => console.log(xhr));
+    Notification.requestPermission(function(status) {
+        console.log('Notification permission status:', status);
+    });
+    function displayNotification() {
+      if (Notification.permission === 'granted') {
+        navigator.serviceWorker.getRegistration().then(function(reg) {
+          reg.showNotification('Hello world!');
+        });
+      }
+    }
+    </script>
+</head>
+<body>
+Loading…
+</body>
